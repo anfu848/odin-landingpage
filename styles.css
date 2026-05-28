@@ -1,0 +1,139 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-size: 12px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.logo {
+    margin: 0 36px;
+}
+
+.nav {
+    display: flex;
+    gap: 18px;
+    margin: 0 36px;
+}
+
+.main-info {
+    background: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.info {
+    margin: 0 36px;
+    flex: 1;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin: 0 36px;
+    padding: 36px 0;
+}
+
+button {
+    background: #3882f6;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 16px;
+}
+
+.info h1 {
+    font-weight: 900;
+    font-size: 48px;
+    margin: auto auto 0px auto;
+}
+
+.info p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-info2 {
+    text-align: center;
+    margin: 36px 36px;
+}
+
+.main-info2 h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.main-info2 p {
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    gap: 18px;
+}
+
+.quoteblock {
+    background: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    margin: 72px 72px 0px 72px;
+}
+
+.author {
+    font-weight: 800;
+    text-align: right;
+    margin: 0 72px 72px 72px;
+}
+
+.popup {
+    background: #3882f6;
+    color: white;
+    margin: 72px;
+    padding: 12px 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 128px;
+}
+
+.popup button {
+    border-color: white;
+    border-width: 2px;
+    height: 30px;
+    width: 100px;
+}
+
+.info button {
+    border: none;
+}
+
+.footer {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    color: #e5e7eb
+}
